@@ -10,7 +10,7 @@ st.title("🚨 Crash Severity Prediction System (LSTM Model)")
 
 # --- 1. Load Data ---
 # Load the full dataset to derive all necessary mappings and statistics
-df_full = pd.read_csv("traffic_accidents.csv")
+df_full = pd.read_csv("traffic_sample.csv")
 df_full.columns = df_full.columns.str.strip().str.lower()
 
 # --- 2. Data Preprocessing Setup (Replicate Training Environment) ---
